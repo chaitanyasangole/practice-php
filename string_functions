@@ -1,0 +1,49 @@
+String functions :-
+------------------
+1) strlen() :- returns the length (number of characters) of string.
+
+2) str_word_count() :- returns the number of words in a string.
+
+3) strtolower() :- convert the string into lowercase letters.
+
+4) strtoupper() :- convert the string into uppercase letters. 
+
+5) strip_tags() :- function strips a string from HTML, XML, and PHP tags.
+
+	Note: HTML comments are always stripped. This cannot be changed with the allow parameter.
+
+	Note: This function is binary-safe.
+
+6) strrev() :- function reverses a string.
+
+7) strtolower() :- function converts a string to lowercase.
+
+	Note: This function is binary-safe.
+
+8) strtoupper() :- function converts a string to uppercase.
+
+	Note: This function is binary-safe.
+
+9) implode() :- function returns a string from the elements of an array.
+
+10) explode() :- function breaks a string into an array of strings.
+
+Note: The "separator" parameter cannot be an empty string.
+
+Note: This function is binary-safe.
+
+explode(separator,string,limit)
+
+Parameter |	Description
+--------------------------------
+separator	Required. Specifies where to break the string
+string	Required. The string to split
+limit	Optional. Specifies the number of array elements to return.
+
+Possible values:
+
+Greater than 0 - Returns an array with a maximum of limit element(s)
+Less than 0 - Returns an array except for the last -limit elements()
+0 - Returns an array with one element
+
+11) str_replace() :- This function replaces string .

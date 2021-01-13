@@ -1,0 +1,5 @@
+<?php 
+$string="This is the string, by chaitany!";
+$arr=explode(" ",$string);
+print_r($arr);
+?>
